@@ -21,6 +21,8 @@ int main() {
             std::cout << cmd.get_error() << std::endl;
             continue;
         }
+        cmd.execute();
+        
     }
     std::cout << "Bye bye, see u soon!" << std::endl;
     return 0;

@@ -7,3 +7,7 @@ bool command::is_valid() {
 std::string command::get_error() {
     return this->_syntax->get_error();
 }
+
+void command::execute() {
+    
+}

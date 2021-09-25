@@ -9,6 +9,7 @@ class command {
         }
         bool is_valid();
         std::string get_error();
+        void execute();
     private:
         std::string _command;
         syntax *_syntax;
