@@ -1,7 +1,7 @@
 # Run on windows with g++
 
-> g++ main.cpp syntax.cpp command.cpp -o ./debug/e.exe && ./debug/e.exe
+> g++ main.cpp syntax.cpp command.cpp -o ./e.exe && ./e.exe
 
 # Run on linux with g++
 
-> g++ main.cpp syntax.cpp command.cpp -o ./debug/e && ./debug/e
+> g++ main.cpp syntax.cpp command.cpp -o ./e && ./e
